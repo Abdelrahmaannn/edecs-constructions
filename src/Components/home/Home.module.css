@@ -1,0 +1,584 @@
+
+.backGroung2Image
+{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5) ) , url("../../Assets/logo/firstSlider.png");
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+    margin-top: 5px;
+}
+
+
+.websiteIntro
+{
+    /* background-color: aquamarine; */
+    width: 85%;
+    margin: auto;
+    margin-top: 150px;
+    
+}
+
+.websiteIntro h2
+{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.websiteIntro h3
+{
+    padding-top: 20px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.animatedLine
+{
+    width: 3px;
+    height: 0px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 69%;
+    animation: animated-line 1.5s forwards infinite;
+}
+
+@keyframes animated-line {
+    from {height: 0px;}
+    to {height: 90px;}
+}
+
+.overviewH2
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 50px;
+    color: #165C61;
+    position: relative;
+}
+
+.overviewH2::after
+{
+    content: "";
+    width: 6%;
+    height: 4px;
+    background-color: #B0974F;
+    position: absolute;
+    top: 100%;
+    left: 7%;
+}
+
+.bulletPointColor
+{
+    color: #B0974F;
+}
+
+.mainListedItems
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 17px;
+}
+
+.latestUpdatesH2
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 50px;
+    color: #165C61;
+    position: relative;
+}
+
+.latestUpdatesH2::after
+{
+    content: "";
+    width: 12%;
+    height: 4px;
+    background-color: #B0974F;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+
+.newsDescription
+{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #165C61;
+    /* padding-top: 4px; */
+    /* margin-top: 20px; */
+    font-weight: 600;
+    padding: 20px;
+}
+
+.featuredProjectsH2
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 50px;
+    color: #165C61;
+    position: relative;
+}
+
+
+.featuredProjectsH2::after
+{
+    content: "";
+    width: 13%;
+    height: 4px;
+    background-color: #B0974F;
+    position: absolute;
+    top: 100%;
+    left: 14%;
+}
+
+.inner
+{
+    transition: all 0.5s;
+}
+
+.inner:hover
+{
+    box-shadow: 10px 10px 15px 3px rgb(208, 208, 208);
+    border-radius: 20px;
+}
+
+
+.partnersH2
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 50px;
+    color: #165C61;
+    position: relative;
+}
+
+.partnersH2::after
+{
+    content: "";
+    width: 13%;
+    height: 4px;
+    background-color: #B0974F;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+}
+
+.partnersBackground
+{
+    mix-blend-mode: darken;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+/* ************************************ */
+/* key from Ui verse styling */
+
+.fancy {
+    background-color: transparent;
+    border: 2px solid #B0974F;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 1.25em 2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 13px;
+   }
+   
+   .fancy::before {
+    content: " ";
+    width: 1.5625rem;
+    height: 2px;
+    background: #165C61;
+    top: 50%;
+    left: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+   }
+   
+   .fancy .text {
+    font-size: 1.125em;
+    line-height: 1.33333em;
+    padding-left: 2em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #165C61;
+   }
+   
+   .fancy .topkey {
+    height: 2px;
+    width: 1.5625rem;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: #ffffff;
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+   }
+   
+   .fancy .bottomkey1 {
+    height: 2px;
+    width: 1.5625rem;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: #ffffff;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+   }
+   
+   .fancy .bottomkey2 {
+    height: 2px;
+    width: 0.625rem;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+   }
+   
+   .fancy:hover {
+    color: white;
+    background: #165C61;
+    border-color: #165C61;
+   }
+   
+   .fancy:hover::before {
+    width: 0.9375rem;
+    background: white;
+   }
+   
+   .fancy:hover .text {
+    color: white;
+    padding-left: 1.5em;
+   }
+   
+   .fancy:hover .topkey {
+    left: -2px;
+    width: 0px;
+   }
+   
+   .fancy:hover .bottomkey1,
+    .fancy:hover .bottomkey2 {
+    right: 0;
+    width: 0;
+   }
+
+/* ************************************ */
+
+
+@media screen and (max-width: 900px) and (min-width: 501px)
+{
+
+    
+.backGroung2Image
+{ 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.websiteIntro
+{
+    /* background-color: aquamarine; */
+    width: 90%;
+    margin: auto;
+    margin-top: 200px;
+    
+}
+
+.websiteIntro h2
+{
+    font-size: 38px;
+}
+
+.websiteIntro h3
+{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.animatedLine
+{
+    width: 4px;
+    top: 54%;
+    animation: animated-line 1.5s forwards infinite;
+}
+
+@keyframes animated-line {
+    from {height: 0px;}
+    to {height: 150px;}
+}
+
+.overviewH2
+{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.overviewH2::after
+{
+    width: 9%;
+    left: 12%;
+}
+
+.bulletPointColor
+{
+    color: #B0974F;
+}
+
+.mainListedItems
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    padding-bottom: 17px;
+}
+
+.latestUpdatesH2
+{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.latestUpdatesH2::after
+{
+    width: 17%;
+    left: 17%;
+}
+
+.newsDescription
+{
+    font-size: 14px;
+}
+
+.featuredProjectsH2
+{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+
+.featuredProjectsH2::after
+{
+    width: 21%;
+    left: 22%;
+}
+
+.inner
+{
+    transition: all 0.5s;
+}
+
+.inner:hover
+{
+    box-shadow: 10px 10px 15px 3px rgb(208, 208, 208);
+    border-radius: 20px;
+}
+
+
+.partnersH2
+{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.partnersH2::after
+{
+    width: 21%;
+    left: 32%;
+}
+
+.partnersBackground
+{
+    mix-blend-mode: darken;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+
+
+
+}
+
+
+
+/* ************************** */
+/* *************************** */
+
+@media screen and (max-width: 500px)
+{
+
+       
+.backGroung2Image
+{ 
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5) ) , url("../../Assets/logo/firstSliderMobile.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+
+.websiteIntro
+{
+    /* background-color: aquamarine; */
+    width: 90%;
+    margin: auto;
+    margin-top: 120px;
+
+    
+}
+
+.websiteIntro h2
+{
+    font-size: 25px;
+    /* text-align: center; */
+}
+
+.websiteIntro h3
+{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.animatedLine
+{
+    width: 3px;
+    top: 70%;
+    animation: animated-line 1.5s forwards infinite;
+}
+
+@keyframes animated-line {
+    from {height: 0px;}
+    to {height: 100px;}
+}
+
+.overviewH2
+{
+    font-size: 27px;
+    padding-top: 20px;
+}
+
+.overviewH2::after
+{
+    width: 16%;
+    left: 20%;
+}
+
+.ulInSmallScreen
+{
+    margin-top: 20px;
+}
+
+.bulletPointColor
+{
+    color: #B0974F;
+}
+
+.mainListedItems
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 17px;
+}
+
+.latestUpdatesH2
+{
+    font-size: 27px;
+    padding-top: 20px;
+}
+
+.latestUpdatesH2::after
+{
+    width: 29%;
+    left: 29%;
+}
+
+.newsDescription
+{
+    font-size: 16px;
+}
+
+.featuredProjectsH2
+{
+    font-size: 27px;
+    padding-top: 30px;
+}
+
+
+.featuredProjectsH2::after
+{
+    width: 35%;
+    left: 38%;
+}
+
+.inner
+{
+    transition: all 0.5s;
+}
+
+.inner:hover
+{
+    box-shadow: 10px 10px 15px 3px rgb(208, 208, 208);
+    border-radius: 20px;
+}
+
+
+.partnersH2
+{
+    width: 80%;
+    font-size: 27px;
+    padding-top: 30px;
+}
+
+.partnersH2::after
+{
+    width: 34%;
+    left: 2%;
+}
+
+.partnersBackground
+{
+    mix-blend-mode: darken;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+
+
+
+}
+
+
+
